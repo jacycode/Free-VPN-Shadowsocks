@@ -29,7 +29,7 @@
       "method":"aes-256-cfb",    
       "fast_open":false    
     }
-######  其中[port]为0~65535之间的一个数据，[password]为你客户端要连接使用的密码。记住！！！
+######  其中[port]为0~65535之间的一个数字，[password]为你客户端要连接使用的密码。记住！！！
 ######  7、ssserver -c /etc/shadowsocks.json -d start
 ######  欧了，至此你已经在中间层服务器上启动了Shadowsocks服务，可以科学上网了。
 #####   二、趁你还没退出服务器，建议你安装个流量监控系统。
