@@ -7,8 +7,8 @@
 
 #####  言归正传，开始搞起。
 #####  一、在Ubuntu系统的中间层服务器安装Shadowsocks服务。
-######  1、ssh [username]@[IP adress]                  
-######  远程登录上你的中间层服务器，这一步会输入你设置的服务器密码。注：下文需要你动态填写的参数，我都会用[xxx]的形式表示。如，[useranme] 、[IP adress]等。
+######  1、ssh [username]@[IP address]                  
+######  远程登录上你的中间层服务器，这一步会输入你设置的服务器密码。注：下文需要你动态填写的参数，我都会用[xxx]的形式表示。如，[useranme] 、[IP address]等。
 ######  2、sudo -s
 ######  获取中间层服务器超级权限。注：已是超级用户请忽略，非超级用户需输入密码。
 ######  3、apt-get update 
@@ -44,7 +44,7 @@
 ######  5、wget http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz
 ######  下载可视化项目（php版）
 ######  6、tar -xvf vnstat_php_frontend-1.5.1.tar.gz 
-######  解压可视化项目，解压后你就可以通过http://[IP adress]:[port]/vnstat_php_frontend-1.5.1/访问流量监控页面了
+######  解压可视化项目，解压后你就可以通过http://[IP address]:[port]/vnstat_php_frontend-1.5.1/访问流量监控页面了
 ######  7、apt-get install libapache2-mod-php7.0
 ######  如果你打开的监控页面无法解析php代码，再执行这一步！！！重启apache2即可
 ######  8、/etc/init.d/apache2 restart
@@ -53,8 +53,8 @@
 ######  1、安装Shadowsocks软件。
 ######  2、打开软件，填写如下参数：
 ![image](https://raw.githubusercontent.com/jacycode/Free-VPN-Shadowsocks-/master/mac.png)
+######  address为你的中间层服务器的公网IP地址；对应的port为第一大步、第6小步的port；password为第一大步、第6小步的password。点击OK就可以在起飞了。
 ######  
-######  
 ######  
 ######  
 ######  
@@ -62,6 +62,6 @@
 ######  
 ######  
 ######  
-######  
-######  
+######  有不明白的地方，可以微博私信我：buildrun。
+######  有用的朋友们，记得加个星。
 
