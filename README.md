@@ -29,6 +29,32 @@
       "method":"aes-256-cfb",    
       "fast_open":false    
     }
+######  其中[port]为0~65535之间的一个数据，[password]为你客户端要连接使用的密码。记住！！！
+######  7、ssserver -c /etc/shadowsocks.json -d start
+######  欧了，至此你已经在中间层服务器上启动了Shadowsocks服务，可以科学上网了。
+#####   二、趁你还没退出服务器，建议你安装个流量监控系统。
+######  1、apt-get install vnstat
+######  安装vnstat来监控相关网卡的流量，通常我们默认安装和监控的都是eth0网卡，5分钟跟新一次数据
+######  2、apt-get install apache2 php7.0 php7.0-gd
+######  其实通过1）就可以监控流浪数据了，接下来的这几步只是将监控数据可视化
+######  3、/etc/init.d/apache2 start
+######  启动apache2服务
+######  4、cd /var/www/html
+######  进入apache2网页容器根路径
+######  5、wget http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz
+######  下载可视化项目（php版）
+######  6、tar -xvf vnstat_php_frontend-1.5.1.tar.gz 
+######  解压可视化项目，解压后你就可以通过http://[IP adress]:[port]/vnstat_php_frontend-1.5.1/访问流量监控页面了
+######  7、apt-get install libapache2-mod-php7.0
+######  如果你打开的监控页面无法解析php代码，再执行这一步！！！重启apache2即可
+######  8、/etc/init.d/apache2 restart
+######  这是重启命令
+#####   三、Mac平台如何使用Shadowsocks服务。
+######  1、安装Shadowsocks软件。
+######  2、打开软件，填写如下参数：
+######  
+######  
+######  
 ######  
 ######  
 ######  
