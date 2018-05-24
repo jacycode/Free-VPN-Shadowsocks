@@ -19,7 +19,16 @@
 ######  通过python-pip安装Shadowsocks服务。
 ######  6、vi /etc/shadowsocks.json
 ######  此步骤用于编辑你Shadowsocks服务端配置文件。编辑内容如下：
-######  
+######    {
+######      "server":"0.0.0.0",
+######      "server_port":[port],
+######      "local_address":"127.0.0.1",
+######      "local_port":1080,
+######      "password":[passwrod],
+######      "timeout":300,
+######      "method":"aes-256-cfb",
+######      "fast_open":false
+######    }
 ######  
 ######  
 ######  
