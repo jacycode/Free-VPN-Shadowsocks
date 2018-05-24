@@ -52,7 +52,7 @@
 #####   三、Mac平台如何使用Shadowsocks服务。
 ######  1、安装Shadowsocks软件。
 ######  2、打开软件，填写如下参数：
-![image](http://github.com/jacycode/Free-VPN-Shadowsocks-/mac.png)
+![image](http://github.com/jacycode/Free-VPN-Shadowsocks-/raw/master/mac.png)
 ######  
 ######  
 ######  
