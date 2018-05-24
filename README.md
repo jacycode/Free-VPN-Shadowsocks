@@ -7,4 +7,5 @@
 
 #####  言归正传，开始搞起。
 #####  一、Ubuntu系统的中间层服务器安装Shadowsocks服务。
-######  1、ssh [username]@[IP adress]                  远程登录上你的中间层服务器，这一步会输入你设置的服务器密码。注：下文需要你动态填写的参数，我都会用[xxx]的形式表示。如，[useranme] 、[IP adress]等。
+######  1、ssh [username]@[IP adress]                  
+######    远程登录上你的中间层服务器，这一步会输入你设置的服务器密码。注：下文需要你动态填写的参数，我都会用[xxx]的形式表示。如，[useranme] 、[IP adress]等。
